@@ -4,6 +4,7 @@ import numpy as np
 import os
 vid=cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
+
 known_face_encodings=[]
 known_face_names=[]
 for i in (os.listdir('D:\Projects\Face Recognition\Faces')):
